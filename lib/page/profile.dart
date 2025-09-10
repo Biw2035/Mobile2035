@@ -126,12 +126,7 @@ class _ProfilePageState extends State<ProfilePage> {
                       children: [
                         const Text('ชื่อ-นามสกุล'),
                         TextField(controller: nameCtl),
-                        const Text('ชื่อ-นามสกุล'),
-                        TextField(controller: phoneCtl),
-                        const Text('ชื่อ-นามสกุล'),
-                        TextField(controller: emailCtl),
-                        const Text('ชื่อ-นามสกุล'),
-                        TextField(controller: imageCtl),
+
                       ],
                     ),
                   ),
