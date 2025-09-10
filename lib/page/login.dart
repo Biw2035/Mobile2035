@@ -137,7 +137,7 @@ class _LoginPageState extends State<LoginPage> {
     } catch (error) {
       log('Error $error');
       setState(() {
-        text = "เกิดข้อผิดพลาดในการเชื่อมต่อเซิร์ฟเวอร์";
+        text = "เกิดข้อผิดพลาดในการเชื่อมต่อเซิร์ฟเวอร์ ";
       });
     }
   }
